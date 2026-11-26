@@ -1,5 +1,4 @@
-// Runs before every test file. You do NOT need to edit this file.
-// Starts a throw-away in-memory MongoDB so tests never touch the real database.
+
 import mongoose from 'mongoose';
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import { Item } from '../src/models/Item.js';
